@@ -1,0 +1,4 @@
+Resources:
+  EC2I371S7:
+    Type: 'AWS::EC2::Instance'
+    Properties: {}
