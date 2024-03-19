@@ -1,4 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: >
+  This stack creates
+  an instance and all
+  its dependencies
+
 Resources:
-  EC2I371S7:
+  WebServer:
     Type: 'AWS::EC2::Instance'
-    Properties: {}
+    Properties:
+      ImageId: 'ami-0d7a109bf30624c99'
