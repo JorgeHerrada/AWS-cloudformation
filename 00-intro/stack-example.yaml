@@ -10,3 +10,5 @@ Resources:
     Type: 'AWS::EC2::Instance'
     Properties:
       ImageId: 'ami-0d7a109bf30624c99'
+      KeyName: 'keypair-test'
+      InstanceType: 't2.micro'
